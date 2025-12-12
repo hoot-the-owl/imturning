@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Custom-Storyboards - Wealthy Wide Eyed Koala</title>
+    <meta
+      property="og:title"
+      content="Custom-Storyboards - Wealthy Wide Eyed Koala"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Roboto;
+        font-size: 1rem;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: undefined;
+        text-transform: undefined;
+        letter-spacing: 0.02em;
+        line-height: 1.6;
+        color: var(--color-on-surface);
+        background: var(--color-surface);
+
+        fill: var(--color-on-surface);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./custom-storyboards.css" rel="stylesheet" />
+
+      <div class="custom-storyboards-container1">
+        <navigation-wrapper class="navigation-wrapper">
+          <!--Navigation component-->
+          <div class="navigation-container1 navigation">
+            <nav class="navigation">
+              <div
+                class="navigation-thq-navigation-container-elm navigation-container"
+              >
+                <a href="index.html">
+                  <div class="navigation-thq-hero-icon-elm hero-icon">
+                    <img
+                      alt="image"
+                      src="public/white_logo.svg"
+                      class="navigation-image"
+                    />
+                  </div>
+                </a>
+                <a href="index.html">
+                  <div
+                    aria-label="TurnRoot Homepage"
+                    class="navigation-thq-navigation-logo-elm navigation-logo"
+                  >
+                    <span
+                      class="navigation-thq-section-title-elm1 section-title"
+                    >
+                      IM Turning
+                    </span>
+                  </div>
+                </a>
+                <button
+                  id="navToggle"
+                  aria-label="Toggle navigation menu"
+                  aria-expanded="false"
+                  class="navigation-toggle"
+                >
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M4 5h16M4 12h16M4 19h16"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </button>
+                <div
+                  class="navigation-thq-navigation-links-elm navigation-links"
+                >
+                  <a href="index.html">
+                    <div
+                      class="navigation-thq-navigation-link-elm1 navigation-link"
+                    >
+                      <span>Home</span>
+                    </div>
+                  </a>
+                  <a href="blog.html">
+                    <div
+                      class="navigation-thq-navigation-link-elm2 navigation-link"
+                    >
+                      <span>Blog</span>
+                    </div>
+                  </a>
+                  <a href="tools.html">
+                    <div
+                      class="navigation-thq-navigation-link-elm3 navigation-link"
+                    >
+                      <span>Tools</span>
+                    </div>
+                  </a>
+                  <a href="about.html">
+                    <div
+                      class="navigation-thq-navigation-link-elm4 navigation-link"
+                    >
+                      <span>About</span>
+                    </div>
+                  </a>
+                  <a href="gallery.html">
+                    <div
+                      class="navigation-thq-navigation-link-elm5 navigation-link-cta navigation-link"
+                    >
+                      <span>View Gallery</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div id="navOverlay" class="navigation-mobile-overlay">
+                <div class="navigation-mobile-header">
+                  <a href="#">
+                    <div
+                      aria-label="TurnRoot Homepage"
+                      class="navigation-mobile-logo"
+                    >
+                      <span class="section-title">IM Turning</span>
+                    </div>
+                  </a>
+                  <button
+                    id="navClose"
+                    aria-label="Close navigation menu"
+                    class="navigation-close"
+                  >
+                    <svg
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M18 6L6 18M6 6l12 12"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+                <div class="navigation-mobile-links">
+                  <a href="index.html">
+                    <div
+                      class="navigation-thq-navigation-mobile-link-elm1 navigation-mobile-link"
+                    >
+                      <span>Home</span>
+                    </div>
+                  </a>
+                  <a href="blog.html">
+                    <div
+                      class="navigation-thq-navigation-mobile-link-elm2 navigation-mobile-link"
+                    >
+                      <span>Blog</span>
+                    </div>
+                  </a>
+                  <a href="tools.html">
+                    <div
+                      class="navigation-thq-navigation-mobile-link-elm3 navigation-mobile-link"
+                    >
+                      <span>Tools</span>
+                    </div>
+                  </a>
+                  <a href="about.html">
+                    <div
+                      class="navigation-thq-navigation-mobile-link-elm4 navigation-mobile-link"
+                    >
+                      <span>About</span>
+                    </div>
+                  </a>
+                  <a href="gallery.html">
+                    <div
+                      class="navigation-thq-navigation-mobile-link-elm5 navigation-mobile-link navigation-mobile-link-cta"
+                    >
+                      <span>Gallery</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </nav>
+            <div class="navigation-container2">
+              <div class="navigation-container3">
+                <style>
+                          @keyframes slideInMobile {to {opacity: 1;
+                  transform: translateX(0);}}
+                </style>
+              </div>
+            </div>
+            <div class="navigation-container4">
+              <div class="navigation-container5">
+                <script defer="" data-name="navigation-toggle">
+                  document.addEventListener('DOMContentLoaded', function() {
+                    (function(){
+                      const navToggle = document.getElementById("navToggle")
+                      const navClose = document.getElementById("navClose")
+                      const navOverlay = document.getElementById("navOverlay")
+
+                      function openMenu() {
+                        navOverlay.classList.add("active")
+                        navToggle.setAttribute("aria-expanded", "true")
+                        document.body.style.overflow = "hidden"
+                      }
+
+                      function closeMenu() {
+                        navOverlay.classList.remove("active")
+                        navToggle.setAttribute("aria-expanded", "false")
+                        document.body.style.overflow = ""
+                      }
+
+                      navToggle.addEventListener("click", openMenu)
+                      navClose.addEventListener("click", closeMenu)
+
+                      const mobileLinks = document.querySelectorAll(".navigation-mobile-link")
+                      mobileLinks.forEach((link) => {
+                        link.addEventListener("click", closeMenu)
+                      })
+
+                      navOverlay.addEventListener("click", (e) => {
+                        if (e.target === navOverlay) {
+                          closeMenu()
+                        }
+                      })
+                    })()
+                  });
+                </script>
+              </div>
+            </div>
+          </div>
+        </navigation-wrapper>
+        <section class="product-overview-section">
+          <div class="product-overview-container">
+            <div class="product-overview-content">
+              <div
+                class="custom-storyboards-thq-product-overview-hero-elm product-overview-hero"
+              >
+                <div class="product-overview-hero-details">
+                  <h2 class="section-title">Custom Storyboards</h2>
+                  <div class="product-overview-description">
+                    <p class="section-content">
+                      <span>
+                        Custom 3D printed storyboards bring precision and
+                        repeatability to your turning projects. By taking a
+                        simple profile image of your finished object and
+                        combining it with a few key dimensions, I can create a
+                        story board that fits your design exactly. This tool
+                        acts as a reliable reference, allowing you to reproduce
+                        the same item multiple times with ease.
+                      </span>
+                      <br />
+                      <br />
+                      <span>
+                        Instead of relying on guesswork or constant measuring,
+                        you have a physical guide that shows the correct
+                        proportions and dimensions and profiles right at the
+                        lathe. Whether you’re producing matching spindles,
+                        bowls, or decorative beads, a custom story board saves
+                        time, ensures accuracy, and makes higher-volume
+                        production straightforward.
+                      </span>
+                      <br />
+                      <br />
+                    </p>
+                    <ul class="product-details-list">
+                      <li class="product-details-list-item">
+                        <span>
+                          Best fit: storyboards are modelled to precisely so you
+                          can easily replicate your favourite turned pieces.
+                        </span>
+                      </li>
+                      <li class="product-details-list-item">
+                        <span>
+                          Repeatable production: quickly reproduce identical
+                          items with reference dimensions at hand.
+                        </span>
+                      </li>
+                      <li class="product-details-list-item">
+                        <span>
+                          Cut off tips: Allow for gauging of adjacent, or
+                          recessed beads.&nbsp;
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="product-overview-hero-image">
+                  <video
+                    src="public/Products/storyboard_reverse.mp4"
+                    loop="true"
+                    muted="true"
+                    poster="https://play.teleporthq.io/static/svg/videoposter.svg"
+                    autoplay="true"
+                    playsinline="true"
+                    class="custom-storyboards-video"
+                  ></video>
+                  <div class="product-overview-hero-accent"></div>
+                </div>
+              </div>
+              <div class="product-overview-features">
+                <div class="product-overview-feature-card">
+                  <div class="product-overview-feature-icon">
+                    <svg
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M21.3 15.3a2.4 2.4 0 0 1 0 3.4l-2.6 2.6a2.4 2.4 0 0 1-3.4 0L2.7 8.7a2.41 2.41 0 0 1 0-3.4l2.6-2.6a2.41 2.41 0 0 1 3.4 0Zm-6.8-2.8l2-2m-5-1l2-2m-5-1l2-2m7 11l2-2"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </svg>
+                  </div>
+                  <h3 class="product-overview-feature-title">
+                    Precision Engineered
+                  </h3>
+                  <p class="product-overview-feature-text">
+                    Tolerances within +-0.1mm for consistent results.
+                  </p>
+                </div>
+                <div class="product-overview-feature-card">
+                  <div class="product-overview-feature-icon">
+                    <svg
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path
+                          d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"
+                        ></path>
+                        <path
+                          d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"
+                        ></path>
+                        <path
+                          d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"
+                        ></path>
+                      </g>
+                    </svg>
+                  </div>
+                  <h3 class="product-overview-feature-title">
+                    <span>Consistent Layouts</span>
+                    <br />
+                  </h3>
+                  <p class="product-overview-feature-text">
+                    Makes your favourite pieces repeatable for consistent
+                    sets.&nbsp;
+                  </p>
+                </div>
+                <div class="product-overview-feature-card">
+                  <div class="product-overview-feature-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24">
+                      <path
+                        d="M9 8h2v6H9zm4-7H7v2h6zm4.03 6.39A8.96 8.96 0 0 1 19 13c0 4.97-4 9-9 9a9 9 0 0 1 0-18c2.12 0 4.07.74 5.62 2l1.42-1.44c.51.44.96.9 1.41 1.41zM17 13c0-3.87-3.13-7-7-7s-7 3.13-7 7s3.13 7 7 7s7-3.13 7-7m4-6v6h2V7zm0 10h2v-2h-2z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
+                  <h3 class="product-overview-feature-title">
+                    <span>Time Saving</span>
+                    <br />
+                  </h3>
+                  <p class="product-overview-feature-text">
+                    <span>
+                      Reduces guesswork and speeds up setup for dimensional
+                      turning.
+                    </span>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="custom-storyboards-thq-gallery-carousel-elm product-details-gallery-carousel"
+        >
+          <div
+            class="custom-storyboards-thq-gallery-carouselcontainer-elm gallery-carousel__container"
+          >
+            <div
+              class="custom-storyboards-thq-gallery-carouselwrapper-elm gallery-carousel__wrapper"
+            >
+              <button
+                id="galleryPrev"
+                aria-label="Previous image"
+                class="gallery-carousel__nav gallery-carousel__nav--prev"
+              >
+                <svg
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m15 18l-6-6l6-6"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+              </button>
+              <div
+                class="custom-storyboards-thq-gallery-carouseltrack-container-elm gallery-carousel__track-container"
+              >
+                <div id="galleryTrack" class="gallery-carousel__track">
+                  <div class="gallery-carousel__slide">
+                    <img
+                      alt="Top view of wooden bowl highlighting rim craftsmanship"
+                      src="public/Products/storyboard1-900w.jpeg"
+                      class="custom-storyboards-thq-gallery-carouselimage-elm1 gallery-carousel__image"
+                    />
+                  </div>
+                  <div class="gallery-carousel__slide">
+                    <img
+                      alt="Wooden bowl detail showing natural texture"
+                      src="public/Products/storyboard2-900w.jpeg"
+                      class="custom-storyboards-thq-gallery-carouselimage-elm2 gallery-carousel__image"
+                    />
+                  </div>
+                  <div class="gallery-carousel__slide">
+                    <img
+                      alt="Close-up of handmade wooden bowl showcasing grain detail"
+                      src="public/Products/storyboard3-900w.jpeg"
+                      class="custom-storyboards-thq-gallery-carouselimage-elm3 gallery-carousel__image"
+                    />
+                  </div>
+                  <div class="gallery-carousel__slide">
+                    <img
+                      alt="Beautifully carved wooden bowl with intricate patterns"
+                      src="public/Products/storyboard4-900w.jpeg"
+                      class="custom-storyboards-thq-gallery-carouselimage-elm4 gallery-carousel__image"
+                    />
+                  </div>
+                  <div class="gallery-carousel__slide">
+                    <img
+                      alt="Simple wooden bowl showcasing minimalist design"
+                      src="public/Products/storyboard5-900w.jpeg"
+                      class="custom-storyboards-thq-gallery-carouselimage-elm5 gallery-carousel__image"
+                    />
+                  </div>
+                </div>
+              </div>
+              <button
+                id="galleryNext"
+                aria-label="Next image"
+                class="gallery-carousel__nav gallery-carousel__nav--next"
+              >
+                <svg
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m9 18l6-6l-6-6"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+            <div id="galleryDots" class="gallery-carousel__dots"></div>
+          </div>
+        </section>
+        <section class="product-details-section">
+          <div class="product-details-wrapper">
+            <div class="product-details-content">
+              <div
+                class="custom-storyboards-thq-product-details-header-elm product-details-header"
+              ></div>
+              <div class="product-details-decorative-grain"></div>
+            </div>
+          </div>
+        </section>
+        <section class="cta-care">
+          <div class="cta-care__featured">
+            <div class="cta-care__featured-content">
+              <div class="cta-care__icon-hero">
+                <svg
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+              </div>
+              <h2 class="section-title cta-care__featured-title">
+                Care Instructions
+              </h2>
+            </div>
+          </div>
+          <div class="cta-care__grid">
+            <div class="cta-care__card">
+              <h3 class="cta-care__card-title">
+                <span>Do not Use on Moving Lathe</span>
+                <br />
+                Daily Cleaning
+              </h3>
+              <p
+                class="custom-storyboards-thq-section-content-elm2 cta-care__card-text section-content"
+              >
+                Friction from moving wood on the lathe will heat up the PLA
+                plastic and cause it to deform or wear.&nbsp;
+              </p>
+            </div>
+            <div class="cta-care__card">
+              <h3 class="cta-care__card-title">
+                <span>Avoid High Heat</span>
+                <br />
+              </h3>
+              <p class="cta-care__card-text section-content">
+                Keep away from direct sunlight and heat sources, such as
+                radiators, or hot cars. PLA softens around 60 °C.&nbsp;
+              </p>
+            </div>
+            <div class="cta-care__card">
+              <h3 class="cta-care__card-title">Avoid Direct Sunlight</h3>
+              <p class="cta-care__card-text section-content">
+                UV from sunlight can weaken PLA over time.
+              </p>
+            </div>
+            <div class="cta-care__card">
+              <h3 class="cta-care__card-title">Keep Dry</h3>
+              <p class="cta-care__card-text section-content">
+                Prolonged moisture can weaken PLA over time.&nbsp;
+              </p>
+            </div>
+          </div>
+        </section>
+        <div class="custom-storyboards-container2">
+          <div class="custom-storyboards-container3">
+            <script defer="" data-name="gallery-carousel">
+              document.addEventListener('DOMContentLoaded', function() {
+                (function(){
+                  const track = document.getElementById("galleryTrack")
+                  const prevBtn = document.getElementById("galleryPrev")
+                  const nextBtn = document.getElementById("galleryNext")
+                  const dotsContainer = document.getElementById("galleryDots")
+                  const slides = track.querySelectorAll(".gallery-carousel__slide")
+
+                  let currentIndex = 0
+                  const totalSlides = slides.length
+
+                  for (let i = 0; i < totalSlides; i++) {
+                    const dot = document.createElement("button")
+                    dot.classList.add("gallery-carousel__dot")
+                    dot.setAttribute("aria-label", `Go to image ${i + 1}`)
+                    if (i === 0) dot.classList.add("active")
+                    dot.addEventListener("click", () => goToSlide(i))
+                    dotsContainer.appendChild(dot)
+                  }
+
+                  const dots = dotsContainer.querySelectorAll(".gallery-carousel__dot")
+
+                  function updateCarousel() {
+                    track.style.transform = `translateX(-${currentIndex * 100}%)`
+
+                    slides.forEach((slide, index) => {
+                      slide.classList.toggle("active", index === currentIndex)
+                    })
+
+                    dots.forEach((dot, index) => {
+                      dot.classList.toggle("active", index === currentIndex)
+                    })
+
+                    prevBtn.disabled = currentIndex === 0
+                    nextBtn.disabled = currentIndex === totalSlides - 1
+                  }
+
+                  function goToSlide(index) {
+                    currentIndex = index
+                    updateCarousel()
+                  }
+
+                  function nextSlide() {
+                    if (currentIndex < totalSlides - 1) {
+                      currentIndex++
+                      updateCarousel()
+                    }
+                  }
+
+                  function prevSlide() {
+                    if (currentIndex > 0) {
+                      currentIndex--
+                      updateCarousel()
+                    }
+                  }
+
+                  prevBtn.addEventListener("click", prevSlide)
+                  nextBtn.addEventListener("click", nextSlide)
+
+                  updateCarousel()
+
+                  let touchStartX = 0
+                  let touchEndX = 0
+
+                  track.addEventListener("touchstart", (e) => {
+                    touchStartX = e.changedTouches[0].screenX
+                  })
+
+                  track.addEventListener("touchend", (e) => {
+                    touchEndX = e.changedTouches[0].screenX
+                    handleSwipe()
+                  })
+
+                  function handleSwipe() {
+                    if (touchStartX - touchEndX > 50) {
+                      nextSlide()
+                    }
+                    if (touchEndX - touchStartX > 50) {
+                      prevSlide()
+                    }
+                  }
+                })()
+              });
+            </script>
+          </div>
+        </div>
+        <footer-wrapper class="footer-wrapper">
+          <!--Footer component-->
+          <div class="footer-container footer">
+            <footer class="footer-thq-footer-turnroot-elm footer-turnroot">
+              <div class="footer-thq-footer-container-elm footer-container">
+                <div class="footer-footer-content">
+                  <div class="footer-thq-footer-brand-elm footer-footer-brand">
+                    <h2 class="footer-footer-brand-name section-title">
+                      IM Turning
+                    </h2>
+                    <p class="footer-tagline">
+                      Crafting precision 3D-printed tools and accessories for
+                      wood turners
+                    </p>
+                  </div>
+                  <div class="footer-footer-contact">
+                    <a href="mailto:contact@imturning.com?subject=">
+                      <div class="footer-email-link">
+                        <svg
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          class="footer-icon"
+                        >
+                          <g
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path
+                              d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+                            ></path>
+                            <rect
+                              x="2"
+                              y="4"
+                              rx="2"
+                              width="20"
+                              height="16"
+                            ></rect>
+                          </g>
+                        </svg>
+                        <span>contact@imturning.com</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="footer-divider"></div>
+                <div class="footer-footer-copyright">
+                  <p>© 2025 IM Turning. All rights reserved.</p>
+                </div>
+              </div>
+              <div class="footer-texture"></div>
+            </footer>
+          </div>
+        </footer-wrapper>
+      </div>
+      <link
+        rel="canonical"
+        href="https://wealthy-wide-eyed-koala-570izg.teleporthq.app/custom-storyboards"
+      />
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Blog - Wealthy Wide Eyed Koala</title>
+    <meta property="og:title" content="Blog - Wealthy Wide Eyed Koala" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Roboto;
+        font-size: 1rem;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: undefined;
+        text-transform: undefined;
+        letter-spacing: 0.02em;
+        line-height: 1.6;
+        color: var(--color-on-surface);
+        background: var(--color-surface);
+
+        fill: var(--color-on-surface);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./blog.css" rel="stylesheet" />
+
+      <div class="blog-container1">
+        <navigation-wrapper class="navigation-wrapper">
+          <!--Navigation component-->
+          <div class="navigation-container1 navigation">
+            <nav class="navigation">
+              <div
+                class="navigation-thq-navigation-container-elm navigation-container"
+              >
+                <a href="index.html">
+                  <div class="navigation-thq-hero-icon-elm hero-icon">
+                    <img
+                      alt="image"
+                      src="public/white_logo.svg"
+                      class="navigation-image"
+                    />
+                  </div>
+                </a>
+                <a href="index.html">
+                  <div
+                    aria-label="TurnRoot Homepage"
+                    class="navigation-thq-navigation-logo-elm navigation-logo"
+                  >
+                    <span
+                      class="navigation-thq-section-title-elm1 section-title"
+                    >
+                      IM Turning
+                    </span>
+                  </div>
+                </a>
+                <button
+                  id="navToggle"
+                  aria-label="Toggle navigation menu"
+                  aria-expanded="false"
+                  class="navigation-toggle"
+                >
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M4 5h16M4 12h16M4 19h16"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </button>
+                <div
+                  class="navigation-thq-navigation-links-elm navigation-links"
+                >
+                  <a href="index.html">
+                    <div
+                      class="navigation-thq-navigation-link-elm1 navigation-link"
+                    >
+                      <span>Home</span>
+                    </div>
+                  </a>
+                  <a href="blog.html">
+                    <div
+                      class="navigation-thq-navigation-link-elm2 navigation-link"
+                    >
+                      <span>Blog</span>
+                    </div>
+                  </a>
+                  <a href="tools.html">
+                    <div
+                      class="navigation-thq-navigation-link-elm3 navigation-link"
+                    >
+                      <span>Tools</span>
+                    </div>
+                  </a>
+                  <a href="about.html">
+                    <div
+                      class="navigation-thq-navigation-link-elm4 navigation-link"
+                    >
+                      <span>About</span>
+                    </div>
+                  </a>
+                  <a href="gallery.html">
+                    <div
+                      class="navigation-thq-navigation-link-elm5 navigation-link-cta navigation-link"
+                    >
+                      <span>View Gallery</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div id="navOverlay" class="navigation-mobile-overlay">
+                <div class="navigation-mobile-header">
+                  <a href="#">
+                    <div
+                      aria-label="TurnRoot Homepage"
+                      class="navigation-mobile-logo"
+                    >
+                      <span class="section-title">IM Turning</span>
+                    </div>
+                  </a>
+                  <button
+                    id="navClose"
+                    aria-label="Close navigation menu"
+                    class="navigation-close"
+                  >
+                    <svg
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M18 6L6 18M6 6l12 12"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+                <div class="navigation-mobile-links">
+                  <a href="index.html">
+                    <div
+                      class="navigation-thq-navigation-mobile-link-elm1 navigation-mobile-link"
+                    >
+                      <span>Home</span>
+                    </div>
+                  </a>
+                  <a href="blog.html">
+                    <div
+                      class="navigation-thq-navigation-mobile-link-elm2 navigation-mobile-link"
+                    >
+                      <span>Blog</span>
+                    </div>
+                  </a>
+                  <a href="tools.html">
+                    <div
+                      class="navigation-thq-navigation-mobile-link-elm3 navigation-mobile-link"
+                    >
+                      <span>Tools</span>
+                    </div>
+                  </a>
+                  <a href="about.html">
+                    <div
+                      class="navigation-thq-navigation-mobile-link-elm4 navigation-mobile-link"
+                    >
+                      <span>About</span>
+                    </div>
+                  </a>
+                  <a href="gallery.html">
+                    <div
+                      class="navigation-thq-navigation-mobile-link-elm5 navigation-mobile-link navigation-mobile-link-cta"
+                    >
+                      <span>Gallery</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </nav>
+            <div class="navigation-container2">
+              <div class="navigation-container3">
+                <style>
+                          @keyframes slideInMobile {to {opacity: 1;
+                  transform: translateX(0);}}
+                </style>
+              </div>
+            </div>
+            <div class="navigation-container4">
+              <div class="navigation-container5">
+                <script defer="" data-name="navigation-toggle">
+                  document.addEventListener('DOMContentLoaded', function() {
+                    (function(){
+                      const navToggle = document.getElementById("navToggle")
+                      const navClose = document.getElementById("navClose")
+                      const navOverlay = document.getElementById("navOverlay")
+
+                      function openMenu() {
+                        navOverlay.classList.add("active")
+                        navToggle.setAttribute("aria-expanded", "true")
+                        document.body.style.overflow = "hidden"
+                      }
+
+                      function closeMenu() {
+                        navOverlay.classList.remove("active")
+                        navToggle.setAttribute("aria-expanded", "false")
+                        document.body.style.overflow = ""
+                      }
+
+                      navToggle.addEventListener("click", openMenu)
+                      navClose.addEventListener("click", closeMenu)
+
+                      const mobileLinks = document.querySelectorAll(".navigation-mobile-link")
+                      mobileLinks.forEach((link) => {
+                        link.addEventListener("click", closeMenu)
+                      })
+
+                      navOverlay.addEventListener("click", (e) => {
+                        if (e.target === navOverlay) {
+                          closeMenu()
+                        }
+                      })
+                    })()
+                  });
+                </script>
+              </div>
+            </div>
+          </div>
+        </navigation-wrapper>
+        <section class="hero-blog">
+          <div class="hero-blog__media-wrapper">
+            <img
+              alt="Artisan skillfully shapes wood on a lathe under focused workshop lighting"
+              src="https://images.pexels.com/photos/3716681/pexels-photo-3716681.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+              class="hero-blog__bg-image"
+            />
+            <div class="hero-blog__overlay"></div>
+          </div>
+          <div class="hero-blog__content">
+            <div class="hero-blog__header">
+              <h1 class="hero-blog__title hero-title">Crafting with Purpose</h1>
+              <p class="hero-blog__subtitle hero-subtitle">
+                Exploring the intersection of traditional woodturning and modern
+                3D printing technology
+              </p>
+            </div>
+            <div class="hero-blog__featured">
+              <article class="hero-blog__feature-card">
+                <div class="hero-blog__feature-image-wrapper">
+                  <img
+                    alt="Close-up of a 3D printer in a workshop with visible tools and spool"
+                    src="https://images.pexels.com/photos/19588197/pexels-photo-19588197.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    class="hero-blog__feature-image"
+                  />
+                </div>
+                <div class="hero-blog__feature-content">
+                  <div class="hero-blog__feature-meta">
+                    <div class="hero-blog__icon-wrapper">
+                      <svg
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path d="M12 6v6l4 2"></path>
+                          <circle r="10" cx="12" cy="12"></circle>
+                        </g>
+                      </svg>
+                    </div>
+                    <span class="hero-blog__date">5 min read</span>
+                  </div>
+                  <h2 class="hero-blog__feature-title section-title">
+                    Getting Started with 3D Printing for Woodturning
+                  </h2>
+                  <p class="hero-blog__feature-text section-content">
+                    Discover how modern 3D printing technology can revolutionize
+                    your woodturning workflow, from custom jigs to precision
+                    measurement tools.
+                  </p>
+                  <a href="#intro-3d-printing">
+                    <div class="hero-blog__cta btn btn-primary">
+                      <span>Read Article</span>
+                    </div>
+                  </a>
+                </div>
+              </article>
+            </div>
+            <div class="hero-blog__quick-links">
+              <h3 class="section-subtitle hero-blog__links-title">
+                Quick Navigation
+              </h3>
+              <nav class="hero-blog__nav-grid">
+                <a href="#intro-3d-printing">
+                  <div class="hero-blog__nav-card">
+                    <div class="hero-blog__nav-icon">
+                      <svg
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path
+                            d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2M6 9V3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6"
+                          ></path>
+                          <rect
+                            x="6"
+                            y="14"
+                            rx="1"
+                            width="12"
+                            height="8"
+                          ></rect>
+                        </g>
+                      </svg>
+                    </div>
+                    <span class="hero-blog__nav-text">3D Printing Intro</span>
+                  </div>
+                </a>
+                <a href="#process_overview">
+                  <div
+                    class="blog-thq-hero-blognav-card-elm2 hero-blog__nav-card"
+                  >
+                    <div class="hero-blog__nav-icon">
+                      <svg
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M15 14c.2-1 .7-1.7 1.5-2.5c1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5c.7.7 1.3 1.5 1.5 2.5m0 4h6m-5 4h4"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span class="hero-blog__nav-text">Design Process</span>
+                  </div>
+                </a>
+                <a href="#push_puppet">
+                  <div
+                    class="blog-thq-hero-blognav-card-elm3 hero-blog__nav-card"
+                  >
+                    <div class="hero-blog__nav-icon">
+                      <svg
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path
+                            d="M3 21h4L20 8a1.5 1.5 0 0 0-4-4L3 17zM14.5 5.5l4 4"
+                          ></path>
+                          <path
+                            d="M12 8L7 3L3 7l5 5M7 8L5.5 9.5M16 12l5 5l-4 4l-5-5m4 1l-1.5 1.5"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <span class="hero-blog__nav-text">Latest Make</span>
+                  </div>
+                </a>
+              </nav>
+            </div>
+          </div>
+        </section>
+        <section id="push_puppet" class="process-overview-section">
+          <div class="process-overview-wrapper">
+            <div class="process-overview-container">
+              <div class="process-overview-header">
+                <div class="process-overview-header-accent">
+                  <svg width="48" height="48" viewBox="0 0 48 48">
+                    <g fill="none" stroke="currentColor" stroke-width="4">
+                      <path
+                        d="M42 38H13c-4 0-7-3-7-7s3-7 7-7h6m0 0h16c4 0 7-3 7-7s-3-7-7-7H17"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                      <path
+                        d="m37 43l5-5l-5-5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                      <circle
+                        r="5"
+                        cx="12"
+                        cy="10"
+                        transform="rotate(-180 12 10)"
+                      ></circle>
+                    </g>
+                  </svg>
+                </div>
+                <h2 class="section-title">Making a Push Puppet</h2>
+                <p class="section-subtitle">A journey through the process</p>
+              </div>
+              <div class="process-overview-grid">
+                <div class="process-overview-step">
+                  <div class="process-overview-content">
+                    <div class="process-overview-step-number">
+                      <span>01</span>
+                    </div>
+                    <h3 class="process-overview-step-title">
+                      <span>Introduction</span>
+                      <br />
+                    </h3>
+                    <p class="section-content">
+                      <span>
+                        There’s something timeless about simple mechanical toys,
+                        and the push puppet is one of my favourites. The way
+                        they collapse with a press of the thumb and spring back
+                        upright as if nothing happened has always seemed magical
+                        to me.
+                      </span>
+                      <br />
+                      <br />
+                      <span>
+                        To understand how they worked, I bought an old,
+                        sacrificial one on eBay and carefully took it apart as I
+                        could not find any relevant resources online. A couple
+                        of things stood out right away. The string threading was
+                        clever; it ran across the body and through the plunger
+                        in a way that kept the figure stable while still
+                        allowing it to flop about.
+                      </span>
+                      <br />
+                      <br />
+                    </p>
+                  </div>
+                  <div
+                    class="blog-thq-process-overview-media-elm10 process-overview-media"
+                  >
+                    <div class="process-overview-image-wrapper">
+                      <img
+                        alt="Wood preparation and carpentry tools"
+                        src="public/Gallery/giraffe_10_25-1500w.jpeg"
+                        loading="lazy"
+                        class="blog-thq-process-overview-image-elm1 process-overview-image"
+                      />
+                      <div class="process-overview-image-overlay"></div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="process-overview-step-reverse process-overview-step"
+                >
+                  <div class="process-overview-content">
+                    <div class="process-overview-step-number">
+                      <span>02</span>
+                    </div>
+                    <h3 class="process-overview-step-title">
+                      <span>More Discoveries</span>
+                      <br />
+                    </h3>
+                    <p class="section-content">
+                      <span>
+                        Moreover, inside the base, I found a conical spring
+                        (dia. 15mm – 25mm, 40mm uncompressed) - an essential
+                        piece that gave the puppet its bounce while keeping the
+                        plunger centred thanks to a recess.
+                      </span>
+                      <br />
+                      <br />
+                      <span>
+                        The parts themselves were relatively straightforward,
+                        but the scale was challenging. Many of the components
+                        measured only 6–8 mm across, which made handling and
+                        replicating them tricky. After my chuck kissed my
+                        knuckles for the last time, I decided to invest in some
+                        Dome Jaws and get a Record Power SC2 mini chuck which I
+                        would highly recommend for working with small parts.
+                      </span>
+                      <br />
+                      <br />
+                      <span>
+                        The string threading starts at the tail and goes down
+                        each hind leg and through the base, it is then threaded
+                        through holes in the sides of the plunger which then
+                        cross in the middle of the plunger, before exiting the
+                        remaining two holes on the opposite sides. This means
+                        the rear left leg is connected to the front right etc.
+                        They then travel back up through the base, and up each
+                        leg until the two strings meet after going through the
+                        body and travel together up the remaining parts of the
+                        neck. These are then tied off in a knot together on the
+                        uppermost section of the neck, before that piece is
+                        glued into a hole at the base of the head.
+                      </span>
+                      <br />
+                      <br />
+                      <br />
+                    </p>
+                  </div>
+                  <div class="process-overview-media">
+                    <div class="process-overview-image-wrapper">
+                      <img
+                        alt="Craftsman using wood lathe in workshop"
+                        src="public/Gallery/drill_guide-1500w.jpeg"
+                        loading="lazy"
+                        class="process-overview-image"
+                      />
+                      <div class="image-caption-overlay">
+                        <p class="caption-text">
+                          Record SC2 Chuck with Dome jaws, holding the giraffe
+                          head, with the 6mm drill guide (white) detached
+                        </p>
+                      </div>
+                      <div class="process-overview-image-overlay"></div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="process-overview-step-reverse process-overview-step"
+                >
+                  <div class="process-overview-content">
+                    <div class="process-overview-step-number">
+                      <span>03</span>
+                    </div>
+                    <h3 class="process-overview-step-title">Drill Guides</h3>
+                    <p class="section-content">
+                      <span>
+                        The hardest part was figuring out how to drill precise
+                        holes in the body and head for the wires to thread
+                        through. After a few attempts by hand, I designed an
+                        interchangeable 3D printed guide system that acts as a
+                        bushing to stabilise a cordless drill. The base takes a
+                        dowel that fits in the tool rest hole on the banjo and
+                        has a thumbscrew to swap out guide parts.
+                      </span>
+                      <br />
+                      <br />
+                      <span>
+                        I could then create any guides I needed, ranging from
+                        simply horizontal holes of varying diameters to holes
+                        inclined at precise angles of pitch and yaw. More
+                        importantly, I could ensure the entry point of the hole
+                        was at the same point on the wood’s surface, so V-shaped
+                        holes can be made using two guides of +- 15 degrees.
+                      </span>
+                      <br />
+                      <span></span>
+                    </p>
+                  </div>
+                  <div class="process-overview-media">
+                    <div class="process-overview-image-wrapper">
+                      <img
+                        alt="Applying finish to wood pieces in workshop"
+                        src="public/Gallery/guides-1500w.png"
+                        loading="lazy"
+                        class="blog-thq-process-overview-image-elm3 process-overview-image"
+                      />
+                      <div class="image-caption-overlay">
+                        <p class="caption-text">
+                          3mm drill guide at 0, -15, +15 degrees
+                        </p>
+                      </div>
+                      <div class="process-overview-image-overlay"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="process-overview-step">
+                  <div class="process-overview-content">
+                    <div class="process-overview-step-number">
+                      <span>04</span>
+                    </div>
+                    <h3 class="process-overview-step-title">Assembly</h3>
+                    <p class="section-content">
+                      The loop from one back leg to the other can hold a piece
+                      of string act as the tail captive when it is pulled back
+                      into the tail hole. I used a clamp to compress the spring,
+                      so it was slightly recessed in order to achieve the
+                      correct tension when tying off the neck knot, which was
+                      fiddly business. I would advise doing the assembly over
+                      some sort of tray, because one false move sends all the
+                      pieces flying as the puppet tends to self-destruct.
+                    </p>
+                  </div>
+                  <div class="process-overview-media">
+                    <div class="process-overview-image-wrapper">
+                      <img
+                        alt="Hands crafting wooden piece in sunlight"
+                        src="public/Gallery/giraffe_assembly-1500w.jpeg"
+                        loading="lazy"
+                        class="process-overview-image"
+                      />
+                      <div class="process-overview-image-overlay"></div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="process-overview-step-reverse process-overview-step"
+                >
+                  <div class="process-overview-content">
+                    <div class="process-overview-step-number">
+                      <span>05</span>
+                    </div>
+                    <h3 class="process-overview-step-title">
+                      Finishing Thougths
+                    </h3>
+                    <p class="section-content">
+                      In the end, the giraffe came together well, and I added a
+                      set of tiny antlers to complete the head. At 2mm at their
+                      narrowest point, they’re the smallest I’ve turned and it
+                      was a satisfying detail to finish off the project.
+                    </p>
+                  </div>
+                  <div class="process-overview-media">
+                    <div class="process-overview-image-wrapper">
+                      <video
+                        src="public/Gallery/img_3681.mp4"
+                        loop="true"
+                        muted="true"
+                        poster="https://play.teleporthq.io/static/svg/videoposter.svg"
+                        autoplay="true"
+                        playsinline="true"
+                        class="blog-video1"
+                      ></video>
+                      <div class="process-overview-image-overlay"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="intro-3d-printing" class="timeline-intro">
+          <div class="timeline-intro__container">
+            <header class="timeline-intro__header">
+              <h2 class="timeline-intro__title section-title">
+                Introduction to 3D Printing for Woodturning
+              </h2>
+              <p class="section-content timeline-intro__description">
+                A beginner-friendly guide to understanding how 3D printing
+                technology can enhance your woodturning practice with custom
+                tools, jigs, and accessories.
+              </p>
+            </header>
+            <div class="timeline-intro__scroll-wrapper">
+              <div class="timeline-intro__track">
+                <article class="timeline-intro__event">
+                  <div class="timeline-intro__marker">
+                    <span class="timeline-intro__number">01</span>
+                  </div>
+                  <div class="timeline-intro__card">
+                    <div class="timeline-intro__card-icon">
+                      <svg
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M15 14c.2-1 .7-1.7 1.5-2.5c1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5c.7.7 1.3 1.5 1.5 2.5m0 4h6m-5 4h4"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg>
+                    </div>
+                    <h3 class="timeline-intro__card-title section-subtitle">
+                      Why 3D Printing?
+                    </h3>
+                    <p class="timeline-intro__card-text section-content">
+                      <span>
+                        Traditional woodturning relies on specialized tools and
+                        jigs that
+                      </span>
+                      <br />
+                      <span>
+                        can be expensive or hard to find. 3D printing allows you
+                        to create
+                      </span>
+                      <br />
+                      <span>
+                        custom solutions tailored to your specific needs, from
+                        simple
+                      </span>
+                      <br />
+                      <span>
+                        tool holders to adaptors and complex measurement gauges.
+                      </span>
+                      Traditional woodturning relies on specialized tools and
+                      jigs that can be expensive or hard to find. 3D printing
+                      allows you to create custom solutions tailored to your
+                      specific needs, from simple chuck key holders to complex
+                      measurement gauges.
+                    </p>
+                  </div>
+                </article>
+                <article class="timeline-intro__event">
+                  <div class="timeline-intro__marker">
+                    <span class="timeline-intro__number">02</span>
+                  </div>
+                  <div class="timeline-intro__card">
+                    <div class="timeline-intro__card-icon">
+                      <svg
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path d="m5 12l7-7l7 7m-7 7V5"></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <h3 class="timeline-intro__card-title section-subtitle">
+                      What is 3D Printing?
+                    </h3>
+                    <p class="timeline-intro__card-text section-content">
+                      3D printing allows the creation of complex objects without
+                      wasting material as it is additive, rather than
+                      subtractive like typical machining. The most prevalent
+                      type is Fusion Deposition Modelling (FDM) which involves
+                      semi-molten plastic being squeezed through a nozzle&nbsp;
+                      and deposited like continuous toothpaste by computer
+                      controlled motors.&nbsp;
+                    </p>
+                  </div>
+                </article>
+                <article class="timeline-intro__event">
+                  <div class="timeline-intro__marker">
+                    <span class="timeline-intro__number">03</span>
+                  </div>
+                  <div class="timeline-intro__card">
+                    <div class="timeline-intro__card-icon">
+                      <svg
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path
+                            d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2M6 9V3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6"
+                          ></path>
+                          <rect
+                            x="6"
+                            y="14"
+                            rx="1"
+                            width="12"
+                            height="8"
+                          ></rect>
+                        </g>
+                      </svg>
+                    </div>
+                    <h3 class="timeline-intro__card-title section-subtitle">
+                      Getting Started
+                    </h3>
+                    <p class="timeline-intro__card-text section-content">
+                      <span>
+                        You don't need an expensive printer to begin.
+                        Entry-level FDM
+                      </span>
+                      <br />
+                      <span>
+                        printers can produce durable PLA or PETG parts perfect
+                        for jigs
+                      </span>
+                      <br />
+                      <span>
+                        and guides. Start with printing available designs online
+                        for quick results before learning how to model objects
+                        yourself.&nbsp;
+                      </span>
+                      You don't need an expensive printer to begin. Entry-level
+                      FDM printers can produce durable PLA or PETG parts perfect
+                      for jigs and guides. Start with simple designs like
+                      caliper holders or tool rests before moving to more
+                      complex projects.
+                    </p>
+                  </div>
+                </article>
+                <article class="timeline-intro__event">
+                  <div class="timeline-intro__marker">
+                    <span class="timeline-intro__number">04</span>
+                  </div>
+                  <div class="timeline-intro__card">
+                    <div class="timeline-intro__card-icon">
+                      <svg
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path
+                            d="M3 21h4L20 8a1.5 1.5 0 0 0-4-4L3 17zM14.5 5.5l4 4"
+                          ></path>
+                          <path
+                            d="M12 8L7 3L3 7l5 5M7 8L5.5 9.5M16 12l5 5l-4 4l-5-5m4 1l-1.5 1.5"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <h3 class="timeline-intro__card-title section-subtitle">
+                      Horses for Courses
+                    </h3>
+                    <p class="timeline-intro__card-text section-content">
+                      <span>
+                        The orientation of the print will matter as the layers
+                        are weak to shear forces and will tend to separate if
+                        force is applied in the plane of the layers. This is
+                        also why FDM printed parts should not typically be used
+                        in safety critical situations, like for use in custom
+                        chuck jaws, without proper evaluation of the forces
+                        involved.
+                      </span>
+                      <br />
+                      Centering jigs for mounting stock, diameter gauges for
+                      consistent sizing, sanding guides for uniform finishes,
+                      and custom chuck accessories. These printed tools provide
+                      precision that would otherwise require expensive
+                      commercial solutions.
+                    </p>
+                  </div>
+                </article>
+                <article class="timeline-intro__event">
+                  <div class="timeline-intro__marker">
+                    <span class="timeline-intro__number">05</span>
+                  </div>
+                  <div class="timeline-intro__card">
+                    <div class="timeline-intro__card-icon">
+                      <svg
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M21.3 15.3a2.4 2.4 0 0 1 0 3.4l-2.6 2.6a2.4 2.4 0 0 1-3.4 0L2.7 8.7a2.41 2.41 0 0 1 0-3.4l2.6-2.6a2.41 2.41 0 0 1 3.4 0Zm-6.8-2.8l2-2m-5-1l2-2m-5-1l2-2m7 11l2-2"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg>
+                    </div>
+                    <h3 class="timeline-intro__card-title section-subtitle">
+                      Material Selection
+                    </h3>
+                    <p class="timeline-intro__card-text section-content">
+                      PLA works well for low-stress jigs and measuring tools.
+                      PETG offers better durability for frequently handled
+                      items. For parts that need to withstand heat or pressure,
+                      consider ABS or nylon. Always test your prints before
+                      relying on them in critical applications.
+                    </p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="process_overview" class="process-overview-section">
+          <div class="process-overview-wrapper">
+            <div class="process-overview-container">
+              <div class="process-overview-header">
+                <div class="process-overview-header-accent">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    class="process-overview-icon-leaf"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8c0 5.5-4.78 10-10 10"
+                      ></path>
+                      <path
+                        d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <h2 class="section-title">
+                  From Sketch to Lathe: Designing Bead &amp; Cove Gauges
+                </h2>
+                <p class="section-subtitle">A journey through the process</p>
+              </div>
+              <div class="process-overview-grid">
+                <div class="process-overview-step">
+                  <div class="process-overview-content">
+                    <div class="process-overview-step-number">
+                      <span>01</span>
+                    </div>
+                    <h3 class="process-overview-step-title">
+                      <span>Sketching the Idea</span>
+                      <br />
+                    </h3>
+                    <p class="section-content">
+                      <span>
+                        Before I touch any software, I start with paper.
+                        Sketching lets me quickly explore proportions and how
+                        the gauge will interact with beads and coves. I mark out
+                        my ideas for the key features including the ends for
+                        bead and cove fitting, plus the ruler notches for
+                        layout. My initial thoughts for its shape and change as
+                        I iterate through trying to fit all the features into
+                        one compact design.&nbsp;
+                      </span>
+                      <br />
+                    </p>
+                  </div>
+                  <div class="process-overview-media">
+                    <div class="process-overview-image-wrapper">
+                      <img
+                        alt="Wood preparation and carpentry tools"
+                        src="public/Gallery/sketch-1500w.jpeg"
+                        loading="lazy"
+                        class="process-overview-image"
+                      />
+                      <div class="process-overview-image-overlay"></div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="process-overview-step-reverse process-overview-step"
+                >
+                  <div class="process-overview-content">
+                    <div class="process-overview-step-number">
+                      <span>02</span>
+                    </div>
+                    <h3 class="process-overview-step-title">
+                      <span>Creating a Digital Model</span>
+                      <br />
+                    </h3>
+                    <p class="section-content">
+                      <span>
+                        Once the concept feels solid, I move into a piece of 3D
+                        modelling software, such as Fusion 360. This&nbsp;
+                      </span>
+                      <span>
+                        gives me the flexibility to iterate quickly and
+                        visualize the tool in 3D before printing.
+                      </span>
+                      <br />
+                      <br />
+                      <span></span>
+                    </p>
+                  </div>
+                  <div class="process-overview-media">
+                    <div class="process-overview-image-wrapper">
+                      <img
+                        alt="Craftsman using wood lathe in workshop"
+                        src="public/Gallery/gauge-1500w.png"
+                        loading="lazy"
+                        class="process-overview-image"
+                      />
+                      <div class="process-overview-image-overlay"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="process-overview-step">
+                  <div class="process-overview-content">
+                    <div class="process-overview-step-number">
+                      <span>03</span>
+                    </div>
+                    <h3 class="process-overview-step-title">
+                      Preparing the Print in a Slicer
+                    </h3>
+                    <p class="section-content">
+                      With the model complete, I export it to a slicer, such as
+                      Bambu Studio. The slicer software takes all the geometry
+                      from the 3D model and converts it into a series of line
+                      paths that the nozzle of a 3D printer can follow,
+                      effectively creating the set of instructions for the 3D
+                      printer for it to make the object. As part of this, the
+                      layer height can be adjusted for strength and finish, the
+                      model can be split to allow for multi-colour printing, and
+                      the density of the finished object can be changed.&nbsp;
+                    </p>
+                  </div>
+                  <div class="process-overview-media">
+                    <div class="process-overview-image-wrapper">
+                      <img
+                        alt="Hands crafting wooden piece in sunlight"
+                        src="public/Gallery/slicer-1500w.png"
+                        loading="lazy"
+                        class="process-overview-image"
+                      />
+                      <div class="process-overview-image-overlay"></div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="process-overview-step-reverse process-overview-step"
+                >
+                  <div class="process-overview-content">
+                    <div class="process-overview-step-number">
+                      <span>04</span>
+                    </div>
+                    <h3 class="process-overview-step-title">
+                      Printing the Gauges
+                    </h3>
+                    <p class="section-content">
+                      <span>
+                        Finally, the file is sent to my Bambu Lab P1S. Watching
+                        the design come to life layer by layer is always
+                        satisfying. PLA gives a lightweight but rigid finish,
+                        perfect for repeated use at the lathe.
+                      </span>
+                      <br />
+                      <br />
+                      <span></span>
+                    </p>
+                  </div>
+                  <div class="process-overview-media">
+                    <div class="process-overview-image-wrapper">
+                      <video
+                        src="public/Gallery/guide_printing.mp4"
+                        loop="true"
+                        muted="true"
+                        poster="https://play.teleporthq.io/static/svg/videoposter.svg"
+                        autoplay="true"
+                        playsinline="true"
+                        class="blog-video2"
+                      ></video>
+                      <div class="process-overview-image-overlay"></div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="process-overview-step-reverse process-overview-step"
+                >
+                  <div class="process-overview-content">
+                    <div class="process-overview-step-number">
+                      <span>05</span>
+                    </div>
+                    <h3 class="process-overview-step-title">Repeat</h3>
+                    <p class="section-content">
+                      <span>
+                        Through testing the gauges, I can quickly iterate
+                        through several tweaks to make them easy to&nbsp; use
+                        and as feature packed as possible. I rinse and repeat
+                        this process until, along with the help of some testers,
+                        that I am satisfied with the finished product.
+                      </span>
+                      <br />
+                      <span></span>
+                    </p>
+                  </div>
+                  <div class="process-overview-media">
+                    <div class="process-overview-image-wrapper">
+                      <img
+                        alt="Applying finish to wood pieces in workshop"
+                        src="public/Products/bead1-1500w.jpeg"
+                        loading="lazy"
+                        class="process-overview-image"
+                      />
+                      <div class="process-overview-image-overlay"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="blog-container2">
+          <div class="blog-container3">
+            <script defer="" data-name="blog-interactions">
+              document.addEventListener('DOMContentLoaded', function() {
+                (function(){
+                  const processCarousel = document.getElementById("processCarousel")
+                  const processPrev = document.getElementById("processPrev")
+                  const processNext = document.getElementById("processNext")
+                  const processIndicators = document.getElementById("processIndicators")
+                  const slides = processCarousel.querySelectorAll(".process-design__slide")
+
+                  let currentSlide = 0
+
+                  function createIndicators() {
+                    slides.forEach((_, index) => {
+                      const indicator = document.createElement("button")
+                      indicator.className = "process-design__indicator"
+                      indicator.setAttribute("aria-label", `Go to slide ${index + 1}`)
+                      if (index === 0)
+                        indicator.classList.add("process-design__indicator--active")
+                      indicator.addEventListener("click", () => goToSlide(index))
+                      processIndicators.appendChild(indicator)
+                    })
+                  }
+
+                  function updateIndicators() {
+                    const indicators = processIndicators.querySelectorAll(
+                      ".process-design__indicator"
+                    )
+                    indicators.forEach((indicator, index) => {
+                      indicator.classList.toggle(
+                        "process-design__indicator--active",
+                        index === currentSlide
+                      )
+                    })
+                  }
+
+                  function goToSlide(index) {
+                    currentSlide = index
+                    const slideWidth = slides[0].offsetWidth
+                    processCarousel.style.transform = `translateX(-${
+                      currentSlide * slideWidth
+                    }px)`
+                    updateIndicators()
+                  }
+
+                  processPrev.addEventListener("click", () => {
+                    currentSlide = (currentSlide - 1 + slides.length) % slides.length
+                    goToSlide(currentSlide)
+                  })
+
+                  processNext.addEventListener("click", () => {
+                    currentSlide = (currentSlide + 1) % slides.length
+                    goToSlide(currentSlide)
+                  })
+
+                  createIndicators()
+
+                  const showcaseData = [
+                    {
+                      img: "https://images.pexels.com/photos/6790981/pexels-photo-6790981.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+                      alt: "A focused craftsman using a lathe in a woodworking workshop, showcasing skill and precision",
+                      title: "Custom Centering Jig",
+                      text: "3D-printed PETG jig for quickly centering irregular stock on the lathe. Features adjustable arms and integrated measurement markers.",
+                    },
+                    {
+                      img: "https://images.pexels.com/photos/129722/pexels-photo-129722.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+                      alt: "Detailed close-up of a rustic wooden texture with visible grain and rings",
+                      title: "Walnut Bowl",
+                      text: "Hand-turned walnut bowl with natural edge and oil finish. Made using custom 3D-printed depth gauge for consistent wall thickness.",
+                    },
+                    {
+                      img: "https://images.pexels.com/photos/19588197/pexels-photo-19588197.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+                      alt: "Close-up of a 3D printer in a workshop with visible tools and spool",
+                      title: "Workshop Setup",
+                      text: "Integrated workspace with 3D printer positioned near the lathe for rapid prototyping and testing of new tool designs.",
+                    },
+                    {
+                      img: "https://images.pexels.com/photos/5711267/pexels-photo-5711267.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+                      alt: "A craftsman uses a lathe to work on a carved wooden plank in a workshop",
+                      title: "Tool Rest Guide",
+                      text: "Precision tool rest positioning guide printed in PLA. Ensures consistent cutting angles for repetitive turning operations.",
+                    },
+                    {
+                      img: "https://images.pexels.com/photos/129721/pexels-photo-129721.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+                      alt: "Highly detailed wooden texture showcasing natural grain pattern and knot",
+                      title: "Oak Platter",
+                      text: "Wide oak platter with live edge detail. Turned using custom 3D-printed steady rest for supporting thin-walled forms.",
+                    },
+                    {
+                      img: "https://images.pexels.com/photos/31137405/pexels-photo-31137405.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+                      alt: "Detailed view of a 3D printer in action, extruding orange plastic components",
+                      title: "Diameter Gauge in Progress",
+                      text: "Mid-print shot of a custom diameter gauge designed for checking bowl wall thickness at multiple points simultaneously.",
+                    },
+                    {
+                      img: "https://images.pexels.com/photos/6790038/pexels-photo-6790038.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+                      alt: "Artisan using a lathe in a woodworking workshop, showcasing precision and skill",
+                      title: "In-Process Turning",
+                      text: "Shaping a green wood bowl blank. Custom-designed faceplate with integrated chuck key holder streamlines the workflow.",
+                    },
+                    {
+                      img: "https://images.pexels.com/photos/129723/pexels-photo-129723.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+                      alt: "Detailed close-up of aged wooden texture with natural grain patterns and rustic look",
+                      title: "Cherry Wood Detail",
+                      text: "Close-up of finished cherry bowl interior showing natural grain patterns enhanced by careful tool control and sanding.",
+                    },
+                  ]
+
+                  const showcaseMain = document.getElementById("showcaseMain")
+                  const thumbnails = document.querySelectorAll(".gallery-showcase__card--thumb")
+
+                  thumbnails.forEach((thumb, index) => {
+                    thumb.addEventListener("click", () => {
+                      const data = showcaseData[index]
+                      const mainImg = showcaseMain.querySelector(
+                        ".gallery-showcase__card-image"
+                      )
+                      const mainTitle = showcaseMain.querySelector(
+                        ".gallery-showcase__card-title"
+                      )
+                      const mainText = showcaseMain.querySelector(
+                        ".gallery-showcase__card-text"
+                      )
+
+                      mainImg.src = data.img
+                      mainImg.alt = data.alt
+                      mainTitle.textContent = data.title
+                      mainText.textContent = data.text
+
+                      thumbnails.forEach((t) => (t.style.opacity = "0.7"))
+                      thumb.style.opacity = "1"
+                    })
+                  })
+                })()
+              });
+            </script>
+          </div>
+        </div>
+        <footer-wrapper class="footer-wrapper">
+          <!--Footer component-->
+          <div class="footer-container footer">
+            <footer class="footer-thq-footer-turnroot-elm footer-turnroot">
+              <div class="footer-thq-footer-container-elm footer-container">
+                <div class="footer-footer-content">
+                  <div class="footer-thq-footer-brand-elm footer-footer-brand">
+                    <h2 class="footer-footer-brand-name section-title">
+                      IM Turning
+                    </h2>
+                    <p class="footer-tagline">
+                      Crafting precision 3D-printed tools and accessories for
+                      wood turners
+                    </p>
+                  </div>
+                  <div class="footer-footer-contact">
+                    <a href="mailto:contact@imturning.com?subject=">
+                      <div class="footer-email-link">
+                        <svg
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          class="footer-icon"
+                        >
+                          <g
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path
+                              d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+                            ></path>
+                            <rect
+                              x="2"
+                              y="4"
+                              rx="2"
+                              width="20"
+                              height="16"
+                            ></rect>
+                          </g>
+                        </svg>
+                        <span>contact@imturning.com</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="footer-divider"></div>
+                <div class="footer-footer-copyright">
+                  <p>© 2025 IM Turning. All rights reserved.</p>
+                </div>
+              </div>
+              <div class="footer-texture"></div>
+            </footer>
+          </div>
+        </footer-wrapper>
+      </div>
+      <link
+        rel="canonical"
+        href="https://wealthy-wide-eyed-koala-570izg.teleporthq.app/blog"
+      />
+    </div>
+  </body>
+</html>
